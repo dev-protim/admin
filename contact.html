@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <!--===============
+			CSS FILES
+		=================-->
+		
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css" media="all" />
+
+		<!-- Owl Carousel CSS -->
+		<link href="assets/css/owl.carousel.min.css" rel="stylesheet" >
+        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" >
+        
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="main-nav pt-15 pb-15">
+                <div class="desktop-nav"> 
+                    <div class="product-logo pr-30 pl-30">
+                        <div class="product-border">
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-default.png" alt="" class="img-responsive"></a>
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-light-text.png" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <button type="button" id="toggleCollapse" class="toggleButtonProperty toggle-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="search-box left-nav main-list pl-10">
+                        <li class="list">
+                            <form>
+                                <input type="search" placeholder="Search">
+                            </form>
+                        </li>
+                    </ul>
+                    <ul class="left-list main-list">
+                        <li class="list"><a href="" class="fullscreen_button"><i class="fas fa-arrows-alt"></i></a></li>
+                        <li class="list"><a href="" class="upper-dropdown" id="upper-dropdown-1"><i class="fas fa-envelope"></i></a><span class="hearbit-one"></span> <small>5</small>
+                            <ul class="menu-dropdown" id="menu-dropdown-1">
+                                <li class="dropdown-header">
+                                    <div class="dropdown-header-list">
+                                        <div class="dropdown-header-flex">
+                                            <h4>Message</h4>
+                                            <p><a href="">Clear</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-content">
+                                    <div class="dropdown-content-inner">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/user-img.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>HKM Sadek Hossain</h4>
+                                                        <span><i class="far fa-clock"></i>15 mins ago</span>
+                                                        <p>project status</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic1.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>carl handson</h4>
+                                                        <span><i class="far fa-clock"></i>20 mins ago</span>
+                                                        <p>client meeting</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic2.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>mohammed jony</h4>
+                                                        <span><i class="far fa-clock"></i>35 mins ago</span>
+                                                        <p>project update</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic3.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>sheikh adnan</h4>
+                                                        <span><i class="far fa-clock"></i>42 mins ago</span>
+                                                        <p>project dedline</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="">See all emails</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list"><a href="" class="upper-dropdown" id="upper-dropdown-2"><i class="fas fa-bell"></i></a><span class="hearbit-two"></span><small>10</small>
+                            <ul class="menu-dropdown" id="menu-dropdown-2">
+                                <li class="dropdown-header">
+                                    <div class="dropdown-header-list">
+                                        <div class="dropdown-header-flex">
+                                            <h4>Notifications</h4>
+                                            <p><a href="">Clear</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-content">
+                                    <div class="dropdown-content-inner">
+                                        <ul class="dropdown-content-notifi">
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-user-plus"></i></i></span>
+                                                    <p class="ellipsis">new customer registered</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-gift"></i></span>
+                                                    <p class="ellipsis">new  order received</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-layer-group"></i></span>
+                                                    <p class="ellipsis">apps are ready to update</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-info-circle"></i></span>
+                                                    <p class="ellipsis">server limit reached</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-user-tag"></i></span>
+                                                    <p class="ellipsis">user imrich cancelled account</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="">See all emails</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="full-item">
+                <div class="sidebar-item">
+                    <div class="sidebar-logo v1 v1-collapse">
+                        <div class="product-content-logo v1-product-content product-content-scrollbar">
+                            <div class="navbar-admin">
+                                <figure>
+                                    <img src="assets/images/user-img.png" alt="">
+                                </figure>
+                                <div class="user-name text-center mt-15">
+                                    <h3>Sadek Hossain</h3>
+                                </div>
+                            </div>
+                            <ul class="nav1">
+                                <h3 class="menu-list-title">Personal</h3>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-home"></i></span>Dashboard<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="index.html"><span class="name">Default</span></a></li>
+                                        <li><a href="analytics.html"><span class="name">Analytics</span> </a></li>
+                                        <li><a href="ecommerce.html"><span class="name">Ecommerces</span> </a></li>
+                                        <li><a href="project.html"><span class="name">Projects</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-cog"></i></span>Widgets<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="widgets.html"><span class="name">Widgets</span> </a></li>
+                                        <li><a href="map.html"><span class="name">Map</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Apps</h3>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-at"></i></span>Email<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="inbox.html"><span class="name">Inbox</span> </a></li>
+                                        <li><a href="compose.html"><span class="name">Compose</span> </a></li>
+                                        <li><a href="sent.html"><span class="name">Sent</span> </a></li>
+                                        <li><a href="draft.html"><span class="name">Draft</span> </a></li>
+                                        <li><a href="trash.html"><span class="name">Trash</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="todo.html"><span class="menu-icon"><i class="fas fa-check"></i></span>ToDo</a>
+                                </li>
+                                <li>
+                                    <a href="chat.html"><span class="menu-icon"><i class="fas fa-comment-dots"></i></span>Chat</a>
+                                </li>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Employee<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="employee.html"><span class="name">Employee List</span> </a></li>
+                                        <li><a href="employee-details.html"><span class="name">Employee Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Contact<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse self-collapse-in">
+                                        <li class="active"><a href="contact.html"><span class="name">Contact List</span> </a></li>
+                                        <li><a href="contact-details.html"><span class="name">Contact Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="profile.html"><span class="menu-icon"><i class="fas fa-user-alt"></i></span>Profile</a>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-poll-h"></i></span>Ecommerce<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="product.html"><span class="name">Product</span> </a></li>
+                                        <li><a href="product-page.html"><span class="name">Product Page</span> </a></li>
+                                        <li><a href="product-list.html"><span class="name">Product List</span> </a></li>
+                                        <li><a href="payment.html"><span class="name">Payment Details</span> </a></li>
+                                        <li><a href="invoice.html"><span class="name">Invoice</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="ecommerce-pa.html"><span class="menu-icon"><i class="fas fa-ticket-alt"></i></span>Support Tickets</a>
+                                </li>
+                                <h3 class="menu-list-title">Components</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fab fa-uikit"></i></span>User Interface<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="card.html"><span class="name">Cards</span> </a></li>
+                                        <li><a href="button.html"><span class="name">Buttons</span> </a></li>
+                                        <li><a href="tab.html"><span class="name">Tabs</span> </a></li>
+                                        <li><a href="accordion.html"><span class="name">Accordions</span> </a></li>
+                                        <li><a href="breadcrumb.html"><span class="name">Breadcrumbs</span> </a></li>
+                                        <li><a href="dropdown.html"><span class="name">Dropdowns</span> </a></li>
+                                        <li><a href="modal.html"><span class="name">Modals</span> </a></li>
+                                        <li><a href="progress.html"><span class="name">Progress Bars</span> </a></li>
+                                        <li><a href="pagination.html"><span class="name">Paginations</span> </a></li>
+                                        <li><a href="tooltip.html"><span class="name">Tooltips</span> </a></li>
+                                        <li><a href="Badge.html"><span class="name">Badges</span> </a></li>
+                                        <li><a href="slider.html"><span class="name">Sliders</span> </a></li>
+                                        <li><a href="icon.html"><span class="name">Icons</span> </a></li>
+                                        <li><a href="image-gall.html"><span class="name">Image Gallary</span> </a></li>
+                                        <li><a href="table.html"><span class="name">Tables</span> </a></li>
+                                        <li><a href="timeline.html"><span class="name">Timelines</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-file-upload"></i></span>Forms<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="form.html"><span class="name">Basic Form</span> </a></li>
+                                        <li><a href="form-layout.html"><span class="name">Form Layout</span> </a></li>
+                                        <li><a href="file-up.html"><span class="name">File Upload</span> </a></li>
+                                        <li><a href="form-input.html"><span class="name">Form Input</span> </a></li>
+                                        <li><a href="form-wizard.html"><span class="name">Form Wizard</span> </a></li>
+                                        <li><a href="form-validation.html"><span class="name">Form Validation</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Pages</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-fingerprint"></i></span>Authentication<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="login.html"><span class="name">Login</span> </a></li>
+                                        <li><a href="loginv2.html"><span class="name">Login v2</span> </a></li>
+                                        <li><a href="loginv3.html"><span class="name">Login v3</span> </a></li>
+                                        <li><a href="register.html"><span class="name">Register</span> </a></li>
+                                        <li><a href="registerv2.html"><span class="name">Register v2</span> </a></li>
+                                        <li><a href="registerv3.html"><span class="name">Register v3</span> </a></li>
+                                        <li><a href="forgetpassword.html"><span class="name">Forget Password</span> </a></li>
+                                        <li><a href="lockscreen.html"><span class="name">Lock Screen</span> </a></li>
+                                        <li><a href="mailconfirmation.html"><span class="name">Mail Confirmation</span> </a></li>
+                                        <li><a href="404-error.html"><span class="name">404 Error</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="price.html"><span class="menu-icon"><i class="fas fa-tags"></i></span>Pricing</a>
+                                </li>
+                                <h3 class="menu-list-title">Charts & Maps</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-chart-bar"></i></span>Charts<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="chartjs.html"><span class="name">Chart JS</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-map"></i></span>Maps<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="vectormap.html"><span class="name">Vector Maps</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Support</h3>
+                                <li>
+                                    <a href="documentation.html"><span class="menu-icon"><i class="fas fa-file-word"></i></span>Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"><span class="menu-icon"><i class="fas fa-question-circle"></i></span>Faqs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <!-- <div class="sidebar-user pt-30">
+                        <figure>
+                            <img src="assets/images/user-img.png" alt="">
+                        </figure>
+                        <div class="user-name text-center mt-15 mb-15">
+                            <h3>Sadek Hossain</h3>
+                        </div>
+        
+                        <div class="mail-info text-center mt-50">
+                            <h3>200</h3>
+                            <span>Total Request</span>
+                        </div>
+        
+                        <div class="mail-info text-center mt-30">
+                            <h3>152</h3>
+                            <span>Sent Request</span>
+                        </div>
+        
+                        <div class="last-mail pl-15 pr-15 mt-50">
+                            <h4>Last Mails</h4>
+                            <div class="mail-list mt-20">
+                                <ul>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="log-out text-center mt-50">
+                            <button>Log Out <i><i class="fas fa-sign-out-alt"></i></i></button>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="left-item">
+                    <div class="content-item pt-30 pl-10 pr-10 pb-50">
+                        <div class="container">
+                            <div class="title pb-5">
+                                <h1>Contact <span>List</span></h1>
+                            </div>
+                            <div class="section-content mail-section mt-20">
+                                <div class="mail-category conversation-details card-box-shadow pt-20 pb-50 mt-10">
+                                    <div class="chart-title conversation-title mb-10 pl-10 pr-10">
+                                        <h2>#Contact List</h2>
+                                        <p>100 Contact</p>
+                                    </div>
+                                    <form action="" class="chat-search ml-10 mr-10 mb-20">
+                                        <input type="text" class="chat-search-input" placeholder="Search a contact">
+                                        <span><button class="search-button"><i class="fas fa-search"></i></button></span>
+                                    </form>
+                                    <div class="add-frnd-btn pl-20 pr-20 mt-40">
+                                        <button class="compose border-radius-3" type="button" data-action="1" id="modal-action-button">Add New</button>
+
+                                        <ul class="filter-list mt-20">
+                                            <h4>Sorting List</h4>
+                                            <li><a href="" class="active-list"><span class="menu-icon"><i class="fas fa-list-ul"></i></span>All</a></li>
+                                            <li><a href=""><span class="menu-icon"><i class="fas fa-star"></i></span>Starred</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mail-box card-box-shadow border-radius-3 pt-20 mt-10">
+                                    <div class="chart-title pl-30">
+                                        <h3>Contact List</h3>
+                                        <span><i class="fas fa-ellipsis-v"></i></span>
+                                    </div>
+                                    <div class="full-mailbox">
+                                        <div class="contact-full-table mt-10">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/user-img.png" alt="user_img"></td>
+                                                        <td><h4>HKM Sadek Hossain</h4></td>
+                                                        <td><span>+8801235-456789</span></td>
+                                                        <td><span>hussainSadek@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic1.png" alt="user_img"></td>
+                                                        <td><h4>Hussain Shipu</h4></td>
+                                                        <td><span>+8801735-456789</span></td>
+                                                        <td><span>shipuN@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/Untitled-1.jpg" alt="user_img"></td>
+                                                        <td><h4>Jack Sukla</h4></td>
+                                                        <td><span>+8801935-568734</span></td>
+                                                        <td><span>jack34@hotmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic2.png" alt="user_img"></td>
+                                                        <td><h4>Pranto Roy</h4></td>
+                                                        <td><span>+8801735-985643</span></td>
+                                                        <td><span>roypranto@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic3.png" alt="user_img"></td>
+                                                        <td><h4>Sheikh Adnan</h4></td>
+                                                        <td><span>+8801635-458789</span></td>
+                                                        <td><span>adnan87@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic4.png" alt="user_img"></td>
+                                                        <td><h4>Kollol chowdhury</h4></td>
+                                                        <td><span>+8801812-134789</span></td>
+                                                        <td><span>chowdhury12@gmail.com.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic5.png" alt="user_img"></td>
+                                                        <td><h4>Nazmul Chowdhury</h4></td>
+                                                        <td><span>+8801835-441789</span></td>
+                                                        <td><span>Nazmul4k@hotmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic6.png" alt="user_img"></td>
+                                                        <td><h4>Mr. Mridha</h4></td>
+                                                        <td><span>+8801675-168789</span></td>
+                                                        <td><span>j.mridha005@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="impo-star impor-todo"><i class="fas fa-star"></i></span></td>
+                                                        <td class="mail-thumb"><img src="assets/images/pic2.png" alt="user_img"></td>
+                                                        <td><h4>Prabal Hossain</h4></td>
+                                                        <td><span>+8801798-676789</span></td>
+                                                        <td><span>Prabal46@gmail.com</span></td>
+                                                        <td><span class="hit-red"><i class="far fa-trash-alt"></i></span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-content pr-30 pt-10">
+                        <div class="align">
+                            <p>Copyright @Sadek 2019, All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-overlay">
+                    <div class="my-modal pt-30" id="modal-my" data-modal-show="1">
+                        <div class="chart-title pl-30 mb-30">
+                            <h3>Add new todo list</h3>
+                            <span class="modal-close"><i class="fas fa-times"></i></span>
+                        </div>
+                        <div class="content-modal pl-30 pr-30 pt-20">
+                            <form action="" class="form-compose">
+                                <div class="input-todo-control mb-20">
+                                    <label for="#title">Title:</label>
+                                    <input type="text" id="title" class="todo-input">
+                                </div>
+                                <div class="input-todo-control mb-20">
+                                    <label for="#contributor">Contributor:</label>
+                                    <input type="text" id="contributor" class="todo-input" placeholder="Add your contributor including '#' tag if any like (#Pranto)">
+                                </div>
+                                <div class="input-todo-control mb-20">
+                                    <label for="#textarea">Details:</label>
+                                    <textarea name="" id="textarea" placeholder="Type your todo details" rows="5" class="todo-input"></textarea>
+                                </div>
+                                <div class="input-todo-control mb-20">
+                                    <label for="#selector">Category:</label>
+                                    <input type="radio" name="gender" value="Api"> Api <br>
+                                    <input type="radio" name="gender" value="Paypal"> Paypal <br>
+                                    <input type="radio" name="gender" value="Invoice"> Invoice <br>
+                                    <input type="radio" name="gender" value="Priority"> Priority <br>
+                                </div>
+                                <!-- <div class="input-todo-control mb-20">
+                                    <label for="#category">Category:</label>
+                                    <input type="text" id="category" class="todo-input todo-input-dropdown">
+                                    <span class="input-dropdown-icon"><i class="fas fa-angle-down"></i></span>
+                                    <ul class="input-todo-dropdown">
+                                        <li>Api</li>
+                                        <li>Paypal</li>
+                                        <li>Invoice</li>
+                                        <li>Priority</li>
+                                    </ul>
+                                </div> -->
+                                <ul class="submit-button">
+                                    <li><button class="submit border-radius-3 close-modal" type="">Cancel</button></li>
+                                    <li><button class="submit border-radius-3 submit-modal" type="submit">Submit</button></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- HTML 
+        <div id="chartdiv"></div>-->
+
+        <!--================
+				SCRIPT
+        ====================-->
+        
+
+		<!-- JQUERY-1.12.0 -->
+        <script src="assets/js/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+		<!-- MAIN.JS -->
+        <script src="assets/js/default-menu.js" type="text/javascript"></script>
+        <script src="assets/js/custom.js" type="text/javascript"></script>
+
+        <script>
+            // Function for full screen
+            $(".fullscreen_button").on("click", function(e) {
+                e.preventDefault();
+                document.fullScreenElement && null !== document.fullScreenElement || !document.mozFullScreen && !document.webkitIsFullScreen ? document.documentElement.requestFullScreen ? document.documentElement.requestFullScreen() : document.documentElement.mozRequestFullScreen ? document.documentElement.mozRequestFullScreen() : document.documentElement.webkitRequestFullScreen && document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen && document.webkitCancelFullScreen()
+            });
+
+            $('#checkAll').click(function () { 
+                $('input#checkItem').prop('checked', this.checked);
+            });
+
+            $('#modal-action-button').click(function() {
+                var self = $(this);
+                var modal =self.attr('data-action');
+                $("#modal-my[data-modal-show="+modal+"]").toggleClass("my-modal-show");
+                $(".modal-overlay").addClass("fadeIn");
+            });
+            
+            $(".todo-input").focusin(function() {
+                $(this).parent().addClass("border-color");
+                
+            });
+
+            $(".todo-input").blur(function() {
+                $(this).parent().removeClass("border-color");
+                
+            });
+
+            $(".todo-input-dropdown").focusin(function() {
+                $(".input-todo-dropdown").addClass("input-todo-dropdown-show");
+                $(".input-dropdown-icon i").css({"transform": "rotate(180deg)", "transition-duration": "400ms"});
+            });
+
+            $(".todo-input-dropdown").blur(function() {
+                $(".input-todo-dropdown").removeClass("input-todo-dropdown-show");
+                $(".input-dropdown-icon i").css("transform", "rotate(0)");
+            });
+
+            $(".close-modal, .modal-close i, .submit-modal").click(function(e) {
+                e.preventDefault();
+                $("#modal-my").removeClass("my-modal-show");
+                $(".modal-overlay").removeClass("fadeIn");
+            });
+        </script>
+        
+    </body>
+</html>

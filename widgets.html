@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <!--===============
+			CSS FILES
+		=================-->
+		
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css" media="all" />
+
+		<!-- Owl Carousel CSS -->
+		<link href="assets/css/owl.carousel.min.css" rel="stylesheet" >
+        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" >
+        
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+        <!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="main-nav pt-15 pb-15">
+                <div class="desktop-nav"> 
+                    <div class="product-logo pr-30 pl-30">
+                        <div class="product-border">
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-default.png" alt="" class="img-responsive"></a>
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-light-text.png" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <button type="button" id="toggleCollapse" class="toggleButtonProperty toggle-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="search-box left-nav main-list pl-10">
+                        <li class="list">
+                            <form>
+                                <input type="search" placeholder="Search">
+                            </form>
+                        </li>
+                    </ul>
+                    <ul class="left-list main-list">
+                        <li class="list"><a href="" class="fullscreen_button"><i class="fas fa-arrows-alt"></i></a></li>
+                        <li class="list"><a href="" class="upper-dropdown" id="upper-dropdown-1"><i class="fas fa-envelope"></i></a><span class="hearbit-one"></span> <small>5</small>
+                            <ul class="menu-dropdown" id="menu-dropdown-1">
+                                <li class="dropdown-header">
+                                    <div class="dropdown-header-list">
+                                        <div class="dropdown-header-flex">
+                                            <h4>Message</h4>
+                                            <p><a href="">Clear</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-content">
+                                    <div class="dropdown-content-inner">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/user-img.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>HKM Sadek Hossain</h4>
+                                                        <span><i class="far fa-clock"></i>15 mins ago</span>
+                                                        <p>project status</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic1.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>carl handson</h4>
+                                                        <span><i class="far fa-clock"></i>20 mins ago</span>
+                                                        <p>client meeting</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic2.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>mohammed jony</h4>
+                                                        <span><i class="far fa-clock"></i>35 mins ago</span>
+                                                        <p>project update</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <div class="dropdown-content-left">
+                                                        <img src="assets/images/pic3.png" alt="">
+                                                    </div>
+                                                    <div class="dropdown-content-right">
+                                                        <h4>sheikh adnan</h4>
+                                                        <span><i class="far fa-clock"></i>42 mins ago</span>
+                                                        <p>project dedline</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="">See all emails</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list"><a href="" class="upper-dropdown" id="upper-dropdown-2"><i class="fas fa-bell"></i></a><span class="hearbit-two"></span><small>10</small>
+                            <ul class="menu-dropdown" id="menu-dropdown-2">
+                                <li class="dropdown-header">
+                                    <div class="dropdown-header-list">
+                                        <div class="dropdown-header-flex">
+                                            <h4>Notifications</h4>
+                                            <p><a href="">Clear</a></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-content">
+                                    <div class="dropdown-content-inner">
+                                        <ul class="dropdown-content-notifi">
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-user-plus"></i></i></span>
+                                                    <p class="ellipsis">new customer registered</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-gift"></i></span>
+                                                    <p class="ellipsis">new  order received</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-layer-group"></i></span>
+                                                    <p class="ellipsis">apps are ready to update</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-info-circle"></i></span>
+                                                    <p class="ellipsis">server limit reached</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span class="hit-blue"><i class="fas fa-user-tag"></i></span>
+                                                    <p class="ellipsis">user imrich cancelled account</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-footer">
+                                    <a href="">See all emails</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="full-item">
+                <div class="sidebar-item">
+                    <div class="sidebar-logo v1 v1-collapse">
+                        <div class="product-content-logo v1-product-content product-content-scrollbar">
+                            <div class="navbar-admin">
+                                <figure>
+                                    <img src="assets/images/user-img.png" alt="">
+                                </figure>
+                                <div class="user-name text-center mt-15">
+                                    <h3>Sadek Hossain</h3>
+                                </div>
+                            </div>
+                            <ul class="nav1">
+                                <h3 class="menu-list-title">Personal</h3>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-home"></i></span>Dashboard<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="index.html"><span class="name">Default</span></a></li>
+                                        <li><a href="analytics.html"><span class="name">Analytics</span> </a></li>
+                                        <li><a href="ecommerce.html"><span class="name">Ecommerces</span> </a></li>
+                                        <li><a href="project.html"><span class="name">Projects</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-cog"></i></span>Widgets<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse self-collapse-in">
+                                        <li class="active"><a href="widgets.html"><span class="name">Widgets</span> </a></li>
+                                        <li><a href="map.html"><span class="name">Map</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Apps</h3>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-at"></i></span>Email<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="inbox.html"><span class="name">Inbox</span> </a></li>
+                                        <li><a href="compose.html"><span class="name">Compose</span> </a></li>
+                                        <li><a href="sent.html"><span class="name">Sent</span> </a></li>
+                                        <li><a href="draft.html"><span class="name">Draft</span> </a></li>
+                                        <li><a href="trash.html"><span class="name">Trash</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="todo.html"><span class="menu-icon"><i class="fas fa-check"></i></span>ToDo</a>
+                                </li>
+                                <li>
+                                    <a href="chat.html"><span class="menu-icon"><i class="fas fa-comment-dots"></i></span>Chat</a>
+                                </li>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Employee<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="employee.html"><span class="name">Employee List</span> </a></li>
+                                        <li><a href="employee-details.html"><span class="name">Employee Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-users"></i></span>Contact<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="contact.html"><span class="name">Contact List</span> </a></li>
+                                        <li><a href="contact-details.html"><span class="name">Contact Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="profile.html"><span class="menu-icon"><i class="fas fa-user-alt"></i></span>Profile</a>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-poll-h"></i></span>Ecommerce<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="product.html"><span class="name">Product</span> </a></li>
+                                        <li><a href="product-page.html"><span class="name">Product Page</span> </a></li>
+                                        <li><a href="product-list.html"><span class="name">Product List</span> </a></li>
+                                        <li><a href="payment.html"><span class="name">Payment Details</span> </a></li>
+                                        <li><a href="invoice.html"><span class="name">Invoice</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="ecommerce-pa.html"><span class="menu-icon"><i class="fas fa-ticket-alt"></i></span>Support Tickets</a>
+                                </li>
+                                <h3 class="menu-list-title">Components</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fab fa-uikit"></i></span>User Interface<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="card.html"><span class="name">Cards</span> </a></li>
+                                        <li><a href="button.html"><span class="name">Buttons</span> </a></li>
+                                        <li><a href="tab.html"><span class="name">Tabs</span> </a></li>
+                                        <li><a href="accordion.html"><span class="name">Accordions</span> </a></li>
+                                        <li><a href="breadcrumb.html"><span class="name">Breadcrumbs</span> </a></li>
+                                        <li><a href="dropdown.html"><span class="name">Dropdowns</span> </a></li>
+                                        <li><a href="modal.html"><span class="name">Modals</span> </a></li>
+                                        <li><a href="progress.html"><span class="name">Progress Bars</span> </a></li>
+                                        <li><a href="pagination.html"><span class="name">Paginations</span> </a></li>
+                                        <li><a href="tooltip.html"><span class="name">Tooltips</span> </a></li>
+                                        <li><a href="Badge.html"><span class="name">Badges</span> </a></li>
+                                        <li><a href="slider.html"><span class="name">Sliders</span> </a></li>
+                                        <li><a href="icon.html"><span class="name">Icons</span> </a></li>
+                                        <li><a href="image-gall.html"><span class="name">Image Gallary</span> </a></li>
+                                        <li><a href="table.html"><span class="name">Tables</span> </a></li>
+                                        <li><a href="timeline.html"><span class="name">Timelines</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-file-upload"></i></span>Forms<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="form.html"><span class="name">Basic Form</span> </a></li>
+                                        <li><a href="form-layout.html"><span class="name">Form Layout</span> </a></li>
+                                        <li><a href="file-up.html"><span class="name">File Upload</span> </a></li>
+                                        <li><a href="form-input.html"><span class="name">Form Input</span> </a></li>
+                                        <li><a href="form-wizard.html"><span class="name">Form Wizard</span> </a></li>
+                                        <li><a href="form-validation.html"><span class="name">Form Validation</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Pages</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-fingerprint"></i></span>Authentication<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="login.html"><span class="name">Login</span> </a></li>
+                                        <li><a href="loginv2.html"><span class="name">Login v2</span> </a></li>
+                                        <li><a href="loginv3.html"><span class="name">Login v3</span> </a></li>
+                                        <li><a href="register.html"><span class="name">Register</span> </a></li>
+                                        <li><a href="registerv2.html"><span class="name">Register v2</span> </a></li>
+                                        <li><a href="registerv3.html"><span class="name">Register v3</span> </a></li>
+                                        <li><a href="forgetpassword.html"><span class="name">Forget Password</span> </a></li>
+                                        <li><a href="lockscreen.html"><span class="name">Lock Screen</span> </a></li>
+                                        <li><a href="mailconfirmation.html"><span class="name">Mail Confirmation</span> </a></li>
+                                        <li><a href="404-error.html"><span class="name">404 Error</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="price.html"><span class="menu-icon"><i class="fas fa-tags"></i></span>Pricing</a>
+                                </li>
+                                <h3 class="menu-list-title">Charts & Maps</h3>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-chart-bar"></i></span>Charts<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="chartjs.html"><span class="name">Chart JS</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="self-collapsable"><span class="menu-icon"><i class="fas fa-map"></i></span>Maps<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul class="self-collapse">
+                                        <li><a href="vectormap.html"><span class="name">Vector Maps</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Support</h3>
+                                <li>
+                                    <a href="documentation.html"><span class="menu-icon"><i class="fas fa-file-word"></i></span>Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"><span class="menu-icon"><i class="fas fa-question-circle"></i></span>Faqs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <!-- <div class="sidebar-user pt-30">
+                        <figure>
+                            <img src="assets/images/user-img.png" alt="">
+                        </figure>
+                        <div class="user-name text-center mt-15 mb-15">
+                            <h3>Sadek Hossain</h3>
+                        </div>
+        
+                        <div class="mail-info text-center mt-50">
+                            <h3>200</h3>
+                            <span>Total Request</span>
+                        </div>
+        
+                        <div class="mail-info text-center mt-30">
+                            <h3>152</h3>
+                            <span>Sent Request</span>
+                        </div>
+        
+                        <div class="last-mail pl-15 pr-15 mt-50">
+                            <h4>Last Mails</h4>
+                            <div class="mail-list mt-20">
+                                <ul>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="log-out text-center mt-50">
+                            <button>Log Out <i><i class="fas fa-sign-out-alt"></i></i></button>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="left-item">
+                    <div class="content-item pt-30 pl-10 pr-10 pb-50">
+                        <div class="container">
+                            <div class="title pb-5">
+                                <h1>Dashboard <span>Widgets</span></h1>
+                            </div>
+                            <div class="section-content">
+                                <div class="row">
+                                    <div class="content-card-body mt-10">
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="eco-card-indi mt-20 card-box-shadow border-radius-3">
+                                                <div class="eco-card-icon eco-card-icon-primary">
+                                                    <p>Wallet Balance</p>
+                                                    <div class="card-default-icon">
+                                                        <span><i class="fas fa-envelope"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="eco-card-price">
+                                                    <p>$3,12,154</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="eco-card-indi mt-20 card-box-shadow border-radius-3">
+                                                <div class="eco-card-icon eco-card-icon-info">
+                                                    <p>Saved Balance</p>
+                                                    <div class="card-default-icon">
+                                                        <span><i class="fas fa-chart-pie"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="eco-card-price">
+                                                    <p>$2,10,954</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="eco-card-indi mt-20 card-box-shadow border-radius-3">
+                                                <div class="eco-card-icon eco-card-icon-purple">
+                                                    <p>Shared Balance</p>
+                                                    <div class="card-default-icon">
+                                                        <span><i class="fas fa-suitcase"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="eco-card-price">
+                                                    <p>$1,50,245</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="eco-card-indi mt-20 card-box-shadow border-radius-3">
+                                                <div class="eco-card-icon eco-card-icon-success">
+                                                    <p>Purchased Balance</p>
+                                                    <div class="card-default-icon">
+                                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                                    </div>
+                                                </div>
+                                                <div class="eco-card-price">
+                                                    <p>$5,70,547</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line-chart-container mt-10">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="small-line-chart card-box-shadow mt-20 border-radius-3">
+                                                <div class="eco-chart-icon">
+                                                    <div class="card-default-icon card-default-icon-primary">
+                                                        <span><i class="fas fa-globe-europe"></i></span>
+                                                    </div>
+                                                    <div class="card-default-des mt-10">
+                                                        <p>687,123</p>
+                                                        <span>Monthly visits</span>
+                                                    </div>
+                                                </div>
+                                                <canvas id="widsmallChart1"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="small-line-chart card-box-shadow mt-20 border-radius-3">
+                                                <div class="eco-chart-icon">
+                                                    <div class="card-default-icon card-default-icon-info">
+                                                        <span><i class="fas fa-users"></i></span>
+                                                    </div>
+                                                    <div class="card-default-des mt-10">
+                                                        <p>345,425</p>
+                                                        <span>Total Sales</span>
+                                                    </div>
+                                                </div>
+                                                <canvas id="widsmallChart2"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="small-line-chart card-box-shadow mt-20 border-radius-3">
+                                                <div class="eco-chart-icon">
+                                                    <div class="card-default-icon card-default-icon-warning">
+                                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                                    </div>
+                                                    <div class="card-default-des mt-10">
+                                                        <p>542,121</p>
+                                                        <span>Total shopping</span>
+                                                    </div>
+                                                </div>
+                                                <canvas id="widsmallChart3"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-card-body mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="mt-20 card-box-shadow ana-card-indi text-center border-radius-3">
+                                                <div class="card-default-icon card-default-icon-primary">
+                                                    <span><i class="fab fa-opencart"></i></span>
+                                                </div>
+                                                <p class="mt-30">Sales</p>
+                                                <p>540</p>
+                                                <p><span class="grow-up"><i class="fas fa-caret-up"></i></span>&nbsp;&nbsp; 42,53%</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="mt-20 card-box-shadow ana-card-indi text-center border-radius-3">
+                                                <div class="card-default-icon card-default-icon-info">
+                                                    <span><i class="fas fa-dollar-sign"></i></span>
+                                                </div>
+                                                <p class="mt-30"> Revenue</p>
+                                                <p>$56,754</p>
+                                                <p><span class="grow-up"><i class="fas fa-caret-up"></i></span>&nbsp;&nbsp; 32,56%</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="mt-20 card-box-shadow ana-card-indi text-center border-radius-3">
+                                                <div class="card-default-icon card-default-icon-warning">
+                                                    <span><i class="fas fa-exchange-alt"></i></span>
+                                                </div>
+                                                <p class="mt-30">Conversion</p>
+                                                <p>21%</p>
+                                                <p><span class="grow-down"><i class="fas fa-caret-down"></i></span>&nbsp;&nbsp; 12,38%</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="mt-20 card-box-shadow ana-card-indi text-center border-radius-3">
+                                                <div class="card-default-icon card-default-icon-success">
+                                                    <span><i class="fas fa-database"></i></span>
+                                                </div>
+                                                <p class="mt-30">Leads</p>
+                                                <p>1014</p>
+                                                <p><span class="grow-up"><i class="fas fa-caret-up"></i></span>&nbsp;&nbsp; 15,40%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-10">
+                                    <div class="col-md-7 col-sm-6 col-xs-12">
+                                        <div class="customer-review mt-20 pt-30 border-radius-3 card-box-shadow">
+                                            <div class="chart-title pl-30">
+                                                <h3>Customer Review</h3>
+                                                <span><i class="fas fa-ellipsis-v"></i></span>
+                                            </div>
+                                            <div class="review-content">
+                                                <div class="review-item pl-20 pr-20 pt-30 pb-30">
+                                                    <div class="item-figure">
+                                                        <figure>
+                                                            <img src="assets/images/user-img.png" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="item-content pl-20">
+                                                        <h3>HM Sadek</h3>
+                                                        <ul class="review-star">
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                        </ul>
+                                                        <p>adminto's design quality is very good.But i hope feedback is more faster than now T.T
+                                                                
+                                                                thanks.</p>
+                                                        <ul class="like-dislike">
+                                                            <li><span class="green"><i class="far fa-thumbs-up"></i></span></li>
+                                                            <li><span class="dark-red"><i class="far fa-thumbs-down"></i></span></li>
+                                                        </ul>
+                                                        <h4>a week ago</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="review-item pl-30 pr-30 pt-30 pb-30">
+                                                    <div class="item-figure">
+                                                        <figure>
+                                                            <img src="assets/images/pic2.png" alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <div class="item-content pl-20">
+                                                        <h3>Carl Handson</h3>
+                                                        <ul class="review-star">
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                            <li><span><i class="far fa-star"></i></span></li>
+                                                        </ul>
+                                                        <p>We used this theme to save some design time but... wow it has everything you didn't realize you would need later. I highly recommend this template to get your web design headed in the right direction quickly.</p>
+                                                        <ul class="like-dislike">
+                                                            <li><span class="green"><i class="far fa-thumbs-up"></i></span></li>
+                                                            <li><span class="dark-red"><i class="far fa-thumbs-down"></i></span></li>
+                                                        </ul>
+                                                        <h4>2 week ago</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="view-all text-center pt-20 pb-20">
+                                                <p><a href="">View all reviews</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 col-sm-6">
+                                        <div class="progress-item mt-20 pt-30 pb-60 border-radius-3 card-box-shadow">
+                                            <div class="chart-title mb-30 pl-30">
+                                                <h3>Profile Status</h3>
+                                                <span><i class="fas fa-ellipsis-v"></i></span>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Web Development</p>
+                                                <span>12/18</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-1"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>UI/ UX Design</p>
+                                                <span>15/18</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-2"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Android</p>
+                                                <span>11/19</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-3"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>IOS</p>
+                                                <span>10/18</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-4"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Digital Marketing</p>
+                                                <span>25/28</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-5"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Sass</p>
+                                                <span>15/17</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-6"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Ruby</p>
+                                                <span>15/17</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-7"></div>
+                                                </div>
+                                            </div>
+                                            <div class="progress-data mt-10 pl-20 pr-20">
+                                                <p>Java</p>
+                                                <span>15/17</span>
+                                                <div class="progress-full">
+                                                    <div class="progress-inner progress-inner-5"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-card-body mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <div class="default-card-indi mt-20 text-center border-radius-3 card-box-shadow">
+                                                <div class="card-default-icon card-default-icon-primary">
+                                                    <span><i class="fab fa-facebook-f"></i></span>
+                                                </div>
+                                                <div class="card-default-des">
+                                                    <p>Facebook</p>
+                                                    <span><a href="">Follow me<span><i class="fas fa-arrow-right"></i></span></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <div class="default-card-indi mt-20 text-center border-radius-3 card-box-shadow">
+                                                <div class="card-default-icon card-default-icon-info">
+                                                    <span><i class="fab fa-twitter"></i></span>
+                                                </div>
+                                                <div class="card-default-des">
+                                                    <p>Twitter</p>
+                                                    <span><a href="">Follow me<span><i class="fas fa-arrow-right"></i></span></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <div class="default-card-indi mt-20 text-center border-radius-3 card-box-shadow">
+                                                <div class="card-default-icon card-default-icon-warning">
+                                                    <span><i class="fab fa-instagram"></i></span>
+                                                </div>
+                                                <div class="card-default-des">
+                                                    <p>Instagram</p>
+                                                    <span><a href="">Follow me<span><i class="fas fa-arrow-right"></i></span></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-xs-6">
+                                            <div class="default-card-indi mt-20 text-center border-radius-3 card-box-shadow">
+                                                <div class="card-default-icon card-default-icon-success">
+                                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                                </div>
+                                                <div class="card-default-des">
+                                                    <p>LinkedIn</p>
+                                                    <span><a href="">Follow me<span><i class="fas fa-arrow-right"></i></span></a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recent-activity-section mt-10">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="recent-activity mt-20 pt-30 pb-30 card-box-shadow border-radius-3">
+                                                <div class="chart-title mb-30 pl-30">
+                                                    <h3>Recent Activity</h3>
+                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                </div>
+                                                <div class="pl-30 pr-30">
+                                                    <div class="activity-details after-red pt-20 pb-20 pl-20 pr-20">
+                                                        <div class="activity-indi">
+                                                            <div class="activity-inner">
+                                                                <p><span><i class="far fa-dot-circle"></i></span>&nbsp;&nbsp;<span>5 mins ago</span></p>
+                                                                <p>Any desktop publishing packages and web page editors.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="activity-details after-green pt-20 pb-20 pl-20 pr-20">
+                                                        <div class="activity-indi">
+                                                            <div class="activity-inner">
+                                                                <p><span><i class="far fa-dot-circle"></i></span>&nbsp;&nbsp;<span>15 mins ago</span></p>
+                                                                <p>Contrary to popular belief, Lorem Ipsum is not simply.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="activity-details after-dark-red pt-20 pb-20 pl-20 pr-20">
+                                                        <div class="activity-indi">
+                                                            <div class="activity-inner">
+                                                                <p><span><i class="far fa-dot-circle"></i></span>&nbsp;&nbsp;<span>43 mins ago</span></p>
+                                                                <p>Established fact that a reader will be distracted</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="activity-details after-yellow pt-20 pb-20 pl-20 pr-20">
+                                                        <div class="activity-indi">
+                                                            <div class="activity-inner">
+                                                                <p><span><i class="far fa-dot-circle"></i></span>&nbsp;&nbsp;<span>1 hour 2 mins ago</span></p>
+                                                                <p>H-Code - A premium portfolio template from ThemeZaa.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="counter-section card-box-shadow mt-20 pt-30 pb-30 border-radius-3">
+                                                <div class="chart-title mb-30 pl-30">
+                                                    <h3>Recent Staffs</h3>
+                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                </div>
+                                                <div class="counter-details">
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-primary">
+                                                            <span><i class="fas fa-users"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">2,324</span></p>
+                                                            <span>Total User</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-info">
+                                                            <span><i class="fas fa-dollar-sign"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">1,545</span></p>
+                                                            <span>Income Ammount</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-purple">
+                                                            <span><i class="fas fa-cart-plus"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">3,258</span></p>
+                                                            <span>Lifetime Sales</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-purple">
+                                                            <span><i class="far fa-eye"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">2,548</span></p>
+                                                            <span>Total Visits</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="counter-section card-box-shadow mt-30 pt-30 pb-30 border-radius-3">
+                                                <div class="chart-title mb-30 pl-30">
+                                                    <h3>Recent Sales</h3>
+                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                </div>
+                                                <div class="counter-details">
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-full-primary">
+                                                            <span><i class="far fa-user"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">2,324</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-full-info">
+                                                            <span><i class="fas fa-users"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">1,545</span></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="counter-inner">
+                                                        <div class="counter-icon counter-icon-full-purple">
+                                                            <span><i class="fas fa-briefcase"></i></span>
+                                                        </div>
+                                                        <div class="counter-content mt-20">
+                                                            <p>$&nbsp;<span class="counter">3,548</span></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-card-container mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">Income Status</h3>
+                                                <p class="red mb-10">6,382</p>
+                                                <p><span class="dark-red"><i class="fas fa-chevron-down"></i>&nbsp;
+                                                    &nbsp;</span>15% decrease</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">Sales Status</h3>
+                                                <p class="green mb-10">4,792</p>
+                                                <p><span class="green"><i class="fas fa-chevron-up"></i>&nbsp;
+                                                    &nbsp;</span>30% increase</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">Recent Users</h3>
+                                                <p class="dark-red mb-10">5,456</p>
+                                                <p><span class="dark-red"><i class="fas fa-chevron-down"></i>&nbsp;
+                                                    &nbsp;</span>20% decrease</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">Total Revenue</h3>
+                                                <p class="green mb-10">4,792</p>
+                                                <p><span class="green"><i class="fas fa-chevron-up"></i>&nbsp;
+                                                    &nbsp;</span>37% increase</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="small-card-container mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">Total Perticipants</h3>
+                                                <p class="red mb-10">6,382</p>
+                                                <p><span class="dark-red"><i class="fas fa-chevron-down"></i>&nbsp;
+                                                    &nbsp;</span>30% decrease</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">First Call Resolution</h3>
+                                                <p class="green mb-10">6,382</p>
+                                                <p><span class="green"><i class="fas fa-chevron-up"></i>&nbsp;
+                                                    &nbsp;</span>30% increase</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">First Call Resolution</h3>
+                                                <p class="dark-red mb-10">6,382</p>
+                                                <p><span class="dark-red"><i class="fas fa-chevron-down"></i>&nbsp;
+                                                    &nbsp;</span>30% decrease</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3 class="mb-10">First Call Resolution</h3>
+                                                <p class="green mb-10">6,382</p>
+                                                <p><span class="green"><i class="fas fa-chevron-up"></i>&nbsp;
+                                                    &nbsp;</span>30% increase</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="small-card-container mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center para-color bg-violet card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <p class="mb-10">2,548</p>
+                                                <h3 class="mb-10">Daily Visits</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center para-color bg-blue card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <p class="mb-10">5,478</p>
+                                                <h3 class="mb-10">Weekly Visits</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center para-color bg-purple card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <p class=" mb-10">521</p>
+                                                <h3 class="mb-10">Monthly Visits</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 text-center para-color bg-green card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <p class="mb-10">6,485</p>
+                                                <h3 class="mb-10">Yearly Visits</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-card-container mt-10">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3>Total Tickets</h3>
+                                                <div class="card-progress-bar card-progress-bar-primary mt-30">
+                                                    <p>Basic</p>
+                                                    <span>80%</span>
+                                                    <div class="card-bar-full">
+                                                        <div class="card-bar-inner card-bar-inner-1"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3>Pending Tickets</h3>
+                                                <div class="card-progress-bar card-progress-bar-info mt-30">
+                                                    <p>Basic</p>
+                                                    <span>90%</span>
+                                                    <div class="card-bar-full">
+                                                        <div class="card-bar-inner card-bar-inner-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3>Closed Tickets</h3>
+                                                <div class="card-progress-bar card-progress-bar-warning mt-30">
+                                                    <p>Basic</p>
+                                                    <span>60%</span>
+                                                    <div class="card-bar-full">
+                                                        <div class="card-bar-inner card-bar-inner-3"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-4">
+                                            <div class="small-card-details border-radius-3 card-box-shadow pt-20 pb-20 pr-20 pl-20 mt-20">
+                                                <h3>Deleted Tickets</h3>
+                                                <div class="card-progress-bar card-progress-bar-purple mt-30">
+                                                    <p>Basic</p>
+                                                    <span>40%</span>
+                                                    <div class="card-bar-full">
+                                                        <div class="card-bar-inner card-bar-inner-4"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table mt-30">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="bg-table card-box-shadow pt-30">
+                                                <div class="wd-table-title chart-title pl-30 pr-30">
+                                                    <h3>Recent Orders</h3>
+                                                    <span><i class="fas fa-ellipsis-v"></i></span>
+                                                </div>
+                                                <div class="over">
+                                                    <table class="wid-table mt-30">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Photo</th>
+                                                                <th>Name</th>
+                                                                <th>Product</th>
+                                                                <th>Quantity</th>
+                                                                <th>Review</th>
+                                                                <th>Price</th>
+                                                            </tr>
+                                                        </thead>
+                                                        
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="td-img"><img src="assets/images/user-img.png" alt=""></td>
+                                                                <th>HM Sadek</th>
+                                                                <td>MacBook</td>
+                                                                <td>2</td>
+                                                                <td>
+                                                                    <ul class="review-star">
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>$1500</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-img"><img src="assets/images/pic1.png" alt=""></td>
+                                                                <th>John deo</th>
+                                                                <td>Iphone 10s max</td>
+                                                                <td>1</td>
+                                                                <td>
+                                                                    <ul class="review-star">
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>$1100</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-img"><img src="assets/images/pic2.png" alt=""></td>
+                                                                <th>Md. Adnan</th>
+                                                                <td>Trimmer</td>
+                                                                <td>1</td>
+                                                                <td>
+                                                                    <ul class="review-star">
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>$200</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-img"><img src="assets/images/pic3.png" alt=""></td>
+                                                                <th>Md. Hasibur Rahman</th>
+                                                                <td>Bits headphone</td>
+                                                                <td>1</td>
+                                                                <td>
+                                                                    <ul class="review-star">
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>$250</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="td-img"><img src="assets/images/pic4.png" alt=""></td>
+                                                                <th>Seikh Jabed</th>
+                                                                <td>Macbook Air Pro</td>
+                                                                <td>1</td>
+                                                                <td>
+                                                                    <ul class="review-star">
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                        <li><span><i class="far fa-star"></i></span></li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>$1280</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-content pr-30 pt-10">
+                        <div class="align">
+                            <p>Copyright @Sadek 2019, All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- HTML 
+        <div id="chartdiv"></div>-->
+
+        <!--================
+				SCRIPT
+        ====================-->
+        
+
+		<!-- JQUERY-1.12.0 -->
+        <script src="assets/js/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+		<!-- MAIN.JS -->
+        <script src="assets/js/default-menu.js" type="text/javascript"></script>
+        <script src="assets/js/custom.js" type="text/javascript"></script>
+
+        <script>
+            // Function for full screen
+            $(".fullscreen_button").on("click", function(e) {
+                e.preventDefault();
+                document.fullScreenElement && null !== document.fullScreenElement || !document.mozFullScreen && !document.webkitIsFullScreen ? document.documentElement.requestFullScreen ? document.documentElement.requestFullScreen() : document.documentElement.mozRequestFullScreen ? document.documentElement.mozRequestFullScreen() : document.documentElement.webkitRequestFullScreen && document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen && document.webkitCancelFullScreen()
+            });
+
+            // Function fo chartjs
+
+            //ChartJs for small chart 1
+            var widCtx1 = document.getElementById('widsmallChart1').getContext('2d');
+            var widlineGradient1 = widCtx1.createLinearGradient(0,230,0,50);
+            widlineGradient1.addColorStop(1,"rgba(136, 108, 254, 0.2)");
+            widlineGradient1.addColorStop(0.5,"rgba(136, 108, 254, 0)");
+            var widChart1 = new Chart(widCtx1, {
+                type: 'line',
+                data: {
+        
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                    datasets: [{
+                        backgroundColor: widlineGradient1,
+                        borderColor: '#886CFE',
+                        data: [5, 5.1, 4.9, 5.2, 5],
+                        pointBackgroundColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        fill: true,
+                    }]
+                },
+            
+                options: {
+            
+                    legend: {
+                        display: false,
+                    },
+
+                    layout: {
+                        padding: {
+                            right: 0,
+                            left: -10,
+                            bottom: 15,
+                        }
+                    },
+
+                    title: {
+                        display: true,
+                    },
+
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return "Total Expense: " + " $ " + Number(tooltipItem.yLabel);
+                            }
+                        }
+                    },
+
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                display: false,
+                                padding: 0,
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                padding: 0,
+                            },
+                        }],
+
+                        xAxes: [{
+
+                            ticks: {
+                                display: false,
+                                padding: 0
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                padding: 0,
+                            }
+                        }]
+                    }
+                }
+            });
+
+            //ChartJs for small chart 2
+            var widCtx2 = document.getElementById('widsmallChart2').getContext('2d');
+            var widlineGradient2 = widCtx2.createLinearGradient(0,230,0,50);
+            widlineGradient2.addColorStop(1,"rgba(0, 135, 229, 0.2)");
+            widlineGradient2.addColorStop(0.5,"rgba(0, 135, 229, 0)");
+            var widChart2 = new Chart(widCtx2, {
+                type: 'line',
+                data: {
+        
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                    datasets: [{
+                        backgroundColor: widlineGradient2,
+                        borderColor: '#0087E5',
+                        data: [5, 4.6, 5, 4.7, 5],
+                        pointBackgroundColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        fill: true,
+                    }]
+                },
+            
+                options: {
+            
+                    legend: {
+                        display: false,
+                    },
+
+                    layout: {
+                        padding: {
+                            right: 0,
+                            left: -10,
+                            bottom: 15,
+                        }
+                    },
+
+                    title: {
+                        display: true,
+                    },
+
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return "Total Expense: " + " $ " + Number(tooltipItem.yLabel);
+                            }
+                        }
+                    },
+
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                display: false,
+                                padding: 0,
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                padding: 0,
+                            },
+                        }],
+
+                        xAxes: [{
+
+                            ticks: {
+                                display: false,
+                                padding: 0
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                padding: 0,
+                            }
+                        }]
+                    }
+                }
+            });
+
+            //ChartJs for small chart 3
+            var widCtx3 = document.getElementById('widsmallChart3').getContext('2d');
+            var widlineGradient3 = widCtx2.createLinearGradient(0,230,0,50);
+            widlineGradient3.addColorStop(1,"rgba(249, 202, 55, 0.2)");
+            widlineGradient3.addColorStop(0.5,"rgba(249, 202, 55, 0)");
+            var widChart3 = new Chart(widCtx3, {
+                type: 'line',
+                data: {
+        
+                    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                    datasets: [{
+                        backgroundColor: widlineGradient3,
+                        borderColor: '#F9CA37',
+                        data: [5, 4.6, 5, 4.7, 5],
+                        pointBackgroundColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        fill: true,
+                    }]
+                },
+            
+                options: {
+            
+                    legend: {
+                        display: false,
+                    },
+
+                    layout: {
+                        padding: {
+                            right: 0,
+                            left: -10,
+                            bottom: -10,
+                        }
+                    },
+
+                    title: {
+                        display: true,
+                    },
+
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return "Total Expense: " + " $ " + Number(tooltipItem.yLabel);
+                            }
+                        }
+                    },
+
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                display: false,
+                                padding: 0,
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                color: '#263350',
+                                padding: 0,
+                            },
+                        }],
+
+                        xAxes: [{
+
+                            ticks: {
+                                display: false,
+                                padding: 0
+                            },
+
+                            gridLines: {
+                                display: false,
+                                drawBorder: false,
+                                padding: 0,
+                            }
+                        }]
+                    }
+                }
+            });
+        </script>
+        
+    </body>
+</html>

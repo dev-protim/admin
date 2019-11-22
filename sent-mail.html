@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <!--===============
+			CSS FILES
+		=================-->
+		
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+
+		<!-- Animate CSS -->
+		<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css" media="all" />
+
+		<!-- Owl Carousel CSS -->
+		<link href="assets/css/owl.carousel.min.css" rel="stylesheet" >
+        <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" >
+        
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+        
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="main-nav pt-15 pb-15">
+                <div class="mobile-toggle">
+                    <div class="menuToggleButton">
+                        <span><i class="fas fa-bars"></i></span>
+                    </div>
+                    <div class="menuToggleItem">
+                        <ul>
+                            <li>
+                                <form action="" class="search-nav">
+                                    <input type="text" class="form-control" placeholder="Search" aria-describedby="basic-addon1">
+                                    <span><button class="search-btn"><i class="fas fa-search"></i></button></span>
+                                </form> 
+                            </li>
+                            <li class="list"><a href=""><i class="fas fa-envelope"></i></a><small>5</small></li>
+                            <li class="list"><a href=""><i class="fas fa-bell"></i></a><small>10</small></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="desktop-nav"> 
+                    <div class="product-logo pr-10 pl-10">
+                        <div class="product-border">
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-default.png" alt="" class="img-responsive"></a>
+                            <a class="logo-brand" href="#"><img src="assets/images/logo-light-text.png" alt="" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <button type="button" id="toggleCollapse" class="toggleButtonProperty toggle-button" onclick="toggleButton()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="search-box left-nav main-list pl-10">
+                        <li class="list">
+                            <form>
+                                <input type="search" placeholder="Search">
+                            </form>
+                        </li>
+                    </ul>
+                    <ul class="left-list main-list">
+                        <li class="list"><a href="javascript:function() {return 0; }" class="fullscreen_button"><i class="fas fa-arrows-alt"></i></a></li>
+                        <li class="list"><a href="javascript:function() {return 0; }"><i class="fas fa-envelope"></i></a><span class="hearbit-one"></span> <small>5</small></li>
+                        <li class="list"><a href="javascript:function() {return 0; }"><i class="fas fa-bell"></i></a><span class="hearbit-two"></span><small>10</small></li>
+                    </ul>
+                    <button class="right chat"><i class="fas fa-comment-alt"></i></button>
+                </div>
+            </div>
+            <div class="full-item">
+                <div class="sidebar-item">
+                    <div class="sidebar-logo v1 v1-collapse"> <!-- class "v3-collapse" is used for menu collapse function. It's design is now disabled. After adding function for this class its design will enable to perform -->
+                        <div class="product-content-logo v1-product-content product-content-scrollbar">
+                            <ul class="nav1" id="accordion" role="tablist" aria-multiselectable="true">
+                                <h3 class="menu-list-title">Personal</h3>
+                                <li>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuOne"><span class="menu-icon"><i class="fas fa-home"></i></span>Dashboard<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuOne" class="panel-collapse collapse">
+                                        <li><a href="index.html"><span class="name">Default</span></a></li>
+                                        <li><a href="analytics.html"><span class="name">Analytics</span> </a></li>
+                                        <li><a href="ecommerce.html"><span class="name">Ecommerces</span> </a></li>
+                                        <li><a href="project.html"><span class="name">Projects</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuTwo"><span class="menu-icon"><i class="fas fa-cog"></i></span>Widgets<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuTwo" class="panel-collapse collapse">
+                                        <li><a href="widgets.html"><span class="name">Widgets</span> </a></li>
+                                        <li><a href="map.html"><span class="name">Map</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Apps</h3>
+                                <li class="active">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#menuThree"><span class="menu-icon"><i class="fas fa-at"></i></span>Email<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuThree" class="panel-collapse collapse in">
+                                        <li><a href="inbox.html"><span class="name">Inbox</span> </a></li>
+                                        <li><a href="compose.html"><span class="name">Compose</span> </a></li>
+                                        <li class="active"><a href="sent.html"><span class="name">Sent</span> </a></li>
+                                        <li><a href="draft.html"><span class="name">Draft</span> </a></li>
+                                        <li><a href="trash.html"><span class="name">Trash</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="todo.html"><span class="menu-icon"><i class="fas fa-check"></i></span>ToDo</a>
+                                </li>
+                                <li>
+                                    <a href="calender.html"><span class="menu-icon"><i class="fas fa-calendar-week"></i></span>Calender</a>
+                                </li>
+                                <li>
+                                    <a href="chat.html"><span class="menu-icon"><i class="fas fa-comment-dots"></i></span>Chat</a>
+                                </li>
+                                <li>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuTen"><span class="menu-icon"><i class="fas fa-users"></i></span>Employee<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuTen" class="panel-collapse collapse">
+                                        <li><a href="employee.html"><span class="name">Employee List</span> </a></li>
+                                        <li><a href="employee-details.html"><span class="name">Employee Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuEleven"><span class="menu-icon"><i class="fas fa-users"></i></span>Contact<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuEleven" class="panel-collapse collapse">
+                                        <li><a href="contact.html"><span class="name">Contact List</span> </a></li>
+                                        <li><a href="contact-details.html"><span class="name">Contact Details</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="profile.html"><span class="menu-icon"><i class="fas fa-user-alt"></i></span>Profile</a>
+                                </li>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuFour"><span class="menu-icon"><i class="fas fa-poll-h"></i></span>Ecommerce<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuFour" class="panel-collapse collapse">
+                                        <li><a href="product.html"><span class="name">Product</span> </a></li>
+                                        <li><a href="product-page.html"><span class="name">Product Page</span> </a></li>
+                                        <li><a href="product-list.html"><span class="name">Product List</span> </a></li>
+                                        <li><a href="payment.html"><span class="name">Payment Details</span> </a></li>
+                                        <li><a href="invoice.html"><span class="name">Invoice</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="ecommerce-pa.html"><span class="menu-icon"><i class="fas fa-ticket-alt"></i></span>Support Tickets</a>
+                                </li>
+                                <h3 class="menu-list-title">Components</h3>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuFive"><span class="menu-icon"><i class="fab fa-uikit"></i></span>User Interface<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuFive" class="panel-collapse collapse">
+                                        <li><a href="card.html"><span class="name">Cards</span> </a></li>
+                                        <li><a href="button.html"><span class="name">Buttons</span> </a></li>
+                                        <li><a href="tab.html"><span class="name">Tabs</span> </a></li>
+                                        <li><a href="accordion.html"><span class="name">Accordions</span> </a></li>
+                                        <li><a href="breadcrumb.html"><span class="name">Breadcrumbs</span> </a></li>
+                                        <li><a href="dropdown.html"><span class="name">Dropdowns</span> </a></li>
+                                        <li><a href="modal.html"><span class="name">Modals</span> </a></li>
+                                        <li><a href="progress.html"><span class="name">Progress Bars</span> </a></li>
+                                        <li><a href="pagination.html"><span class="name">Paginations</span> </a></li>
+                                        <li><a href="tooltip.html"><span class="name">Tooltips</span> </a></li>
+                                        <li><a href="Badge.html"><span class="name">Badges</span> </a></li>
+                                        <li><a href="slider.html"><span class="name">Sliders</span> </a></li>
+                                        <li><a href="icon.html"><span class="name">Icons</span> </a></li>
+                                        <li><a href="image-gall.html"><span class="name">Image Gallary</span> </a></li>
+                                        <li><a href="table.html"><span class="name">Tables</span> </a></li>
+                                        <li><a href="timeline.html"><span class="name">Timelines</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuSix"><span class="menu-icon"><i class="fas fa-file-upload"></i></span>Forms<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuSix" class="panel-collapse collapse">
+                                        <li><a href="form.html"><span class="name">Basic Form</span> </a></li>
+                                        <li><a href="form-layout.html"><span class="name">Form Layout</span> </a></li>
+                                        <li><a href="file-up.html"><span class="name">File Upload</span> </a></li>
+                                        <li><a href="form-input.html"><span class="name">Form Input</span> </a></li>
+                                        <li><a href="form-wizard.html"><span class="name">Form Wizard</span> </a></li>
+                                        <li><a href="form-validation.html"><span class="name">Form Validation</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Charts & Maps</h3>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuSeven"><span class="menu-icon"><i class="fas fa-fingerprint"></i></span>Authentication<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuSeven" class="panel-collapse collapse">
+                                        <li><a href="login.html"><span class="name">Login</span> </a></li>
+                                        <li><a href="loginv2.html"><span class="name">Login v2</span> </a></li>
+                                        <li><a href="loginv3.html"><span class="name">Login v3</span> </a></li>
+                                        <li><a href="register.html"><span class="name">Register</span> </a></li>
+                                        <li><a href="registerv2.html"><span class="name">Register v2</span> </a></li>
+                                        <li><a href="registerv3.html"><span class="name">Register v3</span> </a></li>
+                                        <li><a href="forgetpassword.html"><span class="name">Forget Password</span> </a></li>
+                                        <li><a href="lockscreen.html"><span class="name">Lock Screen</span> </a></li>
+                                        <li><a href="mailconfirmation.html"><span class="name">Mail Confirmation</span> </a></li>
+                                        <li><a href="404-error.html"><span class="name">404 Error</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="invoice.html"><span class="menu-icon"><i class="fas fa-file-invoice"></i></span>Invoices</a>
+                                </li>
+                                <li>
+                                    <a href="price.html"><span class="menu-icon"><i class="fas fa-tags"></i></span>Pricing</a>
+                                </li>
+                                <h3 class="menu-list-title">Charts & Maps</h3>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuEight"><span class="menu-icon"><i class="fas fa-chart-bar"></i></span>Charts<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuEight" class="panel-collapse collapse">
+                                        <li><a href="chartjs.html"><span class="name">Chart JS</span> </a></li>
+                                    </ul>
+                                </li>
+                                <li>    
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#menuNine"><span class="menu-icon"><i class="fas fa-map"></i></span>Maps<span class="determiner-icon"><i class="fas fa-chevron-down"></i></span></a>
+                                    <ul id="menuNine" class="panel-collapse collapse">
+                                        <li><a href="googlemap.html"><span class="name">Google Maps</span> </a></li>
+                                        <li><a href="vectormap.html"><span class="name">Vector Maps</span> </a></li>
+                                    </ul>
+                                </li>
+                                <h3 class="menu-list-title">Support</h3>
+                                <li>
+                                    <a href="documentation.html"><span class="menu-icon"><i class="fas fa-file-word"></i></span>Documentation</a>
+                                </li>
+                                <li>
+                                    <a href="faq.html"><span class="menu-icon"><i class="fas fa-question-circle"></i></span>Faqs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    <div class="sidebar-user pt-30">
+                        <figure>
+                            <img src="assets/images/user-img.png" alt="">
+                        </figure>
+                        <div class="user-name text-center mt-15 mb-15">
+                            <h3>Sadek Hossain</h3>
+                        </div>
+        
+                        <div class="mail-info text-center mt-50">
+                            <h3>200</h3>
+                            <span>Total Request</span>
+                        </div>
+        
+                        <div class="mail-info text-center mt-30">
+                            <h3>152</h3>
+                            <span>Sent Request</span>
+                        </div>
+        
+                        <div class="last-mail pl-15 pr-15 mt-50">
+                            <h4>Last Mails</h4>
+                            <div class="mail-list mt-20">
+                                <ul>
+                                    <li class="p-5 mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="p-5 mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                    <li class="p-5 mb-20">
+                                        <p class="pr-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam iaculis ...</p>
+                                        <span><strong><a href="">Pranto Roy</a></strong></span>
+                                        <span>12 March, 2019</span>
+                                        <span><a href=""><i class="fas fa-ellipsis-v"></i></a></span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="log-out text-center mt-50">
+                            <button>Log Out <i><i class="fas fa-sign-out-alt"></i></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-item">
+                    <div class="skew-bg"></div>
+                    
+                    <div class="chat-box">
+                        <div class="chat-name pt-30 pr-20 pl-20">
+                            <ul>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="active-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="active-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="active-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="active-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="active-online"></span></li>
+                                <li><img src="assets/images/user-img.png" alt=""><span>2</span><span class="inactive-online"></span></li>
+                            </ul>
+                        </div>
+                        <div class="message-box">
+                            <div class="chat-title">
+                                <span><i class="fas fa-comment-dots"></i></span>
+                                <P>Select a contact to start a conversation</P>
+                            </div>
+                        </div>
+                        <div class="conversation pr-10 pl-10">
+                            <div class="conversation-contact">
+                                <div class="contact-person mt-20">
+                                    <div class="contact-img">
+                                        <img src="assets/images/user-img.png" alt="">
+                                    </div>
+                                    <div class="person-msg">
+                                        <ul>
+                                            <li>you are the worst</li>
+                                            <li>you are the worst</li>
+                                            <li>you are the worst</li>
+                                            <li>you are the worst</li>
+                                        </ul>
+                                        <small>26/3/19, 12:33 PM</small>
+                                    </div>
+                                </div>
+                                <div class="me mt-20 pl-10">
+                                        <ul>
+                                            <li>you are the worst</li>
+                                            <li>you are the worst</li>
+                                            <li>you are the worst</li>
+                                        </ul>
+                                        <small>26/3/19, 12:33 PM</small>
+                                </div>
+                            </div>
+    
+                            <div class="type-message">
+                                <div class="type-box">
+                                    <textarea placeholder="Type your message" name="message" rows="3"></textarea>
+                                    <ul class="upload">
+                                        <li class="upload-image"><a href="" title="Add photos"><i class="far fa-images"></i></a></li>
+                                        <li class="upload-emo"><a href="" title="Choose an emoji"><i class="fas fa-smile"></i></a></li>
+                                        <li class="upload-files"><a href="" title="Attach files"><i class="fas fa-paperclip"></i></a></li>
+                                    </ul>
+                                    <ul class="send">
+                                        <li class="send-msg"><a href="" title="Add Photos"><i class="fas fa-paper-plane"></i></a></li>
+                                    </ul>
+                                    <!-- <span><i class="fas fa-paper-plane"></i></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-item pt-30 pr-30 pb-50">
+                        <div class="container">
+                            <div class="title pb-5">
+                                <h1>Mailbox <span>Email</span> <span>|</span> <span>Inbox</span></h1>
+                            </div>
+                            <div class="section-content mail-section mt-20">
+                                <div class="mail-category card-box-shadow pl-20 pr-20 pt-20 pb-20 mt-10">
+                                    <button class="compose border-radius-3" type="button" onclick="window.location.href='compose.html'">Compose</button>
+                                    <ul class="email-list mt-20">
+                                        <li><a href="inbox.html"><span class="menu-icon"><i class="fas fa-inbox"></i></span>Inbox <span class="new-mes">6</span></a></li>
+                                        <li><a href="sent.html" class="active-list"><span class="menu-icon"><i class="fas fa-paper-plane"></i></span>Sent</a></li>
+                                        <li><a href="draft.html" ><span class="menu-icon"><i class="fas fa-file"></i></span>Draft</a></li>
+                                        <li><a href="trash.html"><span class="menu-icon"><i class="fas fa-trash"></i></span>Trash</a></li>
+                                    </ul>
+                                    <ul class="mail-label">
+                                        <h4>Category</h4>
+                                        <li><a href=""><span class="cat-leb cat-leb-green"></span>Work</a></li>
+                                        <li><a href=""><span class="cat-leb cat-leb-red"></span>Private</a></li>
+                                        <li><a href=""><span class="cat-leb cat-leb-yellow"></span>Family</a></li>
+                                        <li><a href=""><span class="cat-leb cat-leb-violet"></span>Priority</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mail-box card-box-shadow border-radius-3 pt-20 mt-10">
+                                    <div class="chart-title pl-30 mb-30">
+                                        <h3>Send</h3>
+                                        <form action="" class="mail-search">
+                                            <input type="text" class="mail-search-input">
+                                            <span><button class="search-button"><i class="fas fa-search"></i></button></span>
+                                        </form>
+                                    </div>
+                                    <div class="full-mailbox">
+                                        <div class="message-title pl-15 pb-10">
+                                            <h3>Title of the message</h3>
+                                        </div>
+                                        <div class="message-inner mt-40 pb-40">
+                                            <div class="message-profile mb-30 pl-15 pr-15">
+                                                <div class="message-profile-thumb">
+                                                    <img src="assets/images/user-img.png" alt="">
+                                                </div>
+                                                <div class="message-profile-link">
+                                                    <h3>My Name</h3>
+                                                    <span>to: xyz@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="message-details mt-40 pb-30 pl-15 pr-15">
+                                                <p>Dear user,</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                                            </div>
+                                            <div class="message-attach mt-30 pl-15 pr-15">
+                                                <h4><span><i class="fas fa-paperclip"></i></span>Attachments (3)</h4>
+                                                <ul class="attachment-file mt-20 mb-20">
+                                                    <li><a href=""><img src="assets/images/21.jpg" alt=""></a></li>
+                                                    <li><a href=""><img src="assets/images/21.jpg" alt=""></a></li>
+                                                    <li><a href=""><img src="assets/images/21.jpg" alt=""></a></li>
+                                                </ul>
+                                                <p>Click here to <a href="">reply</a> or <a href="">forward</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="footer-content pr-30 pt-10">
+                        <div class="align">
+                            <p>Copyright @Sadek 2019, All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- HTML 
+        <div id="chartdiv"></div>-->
+
+        <!--================
+				SCRIPT
+        ====================-->
+        
+
+		<!-- JQUERY-1.12.0 -->
+        <script src="assets/js/jquery-1.12.0.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+		<!-- MAIN.JS -->
+        <script src="assets/js/custom.js" type="text/javascript"></script>
+
+        <script>
+            // Function for full screen
+            $(".fullscreen_button").on("click", function() {
+                document.fullScreenElement && null !== document.fullScreenElement || !document.mozFullScreen && !document.webkitIsFullScreen ? document.documentElement.requestFullScreen ? document.documentElement.requestFullScreen() : document.documentElement.mozRequestFullScreen ? document.documentElement.mozRequestFullScreen() : document.documentElement.webkitRequestFullScreen && document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen && document.webkitCancelFullScreen()
+            });
+
+            $('#checkAll').click(function () { 
+                $('input#checkItem').prop('checked', this.checked);
+            });
+        </script>
+        
+    </body>
+</html>
